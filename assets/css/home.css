@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.card {
+.sec-6-card {
     width: 32%;
     height: 33vh;
     border-radius: 10px;
@@ -11,64 +11,63 @@
     justify-content: space-between;
     overflow: hidden;
     position: relative;
-
 }
-.card-img {
+.sec-6-card-img {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 0;
 }
-.card-img img {
+.sec-6-card-img img {
     max-width: 130%;
     height: 100%;
 }
-.card-body {
+.sec-6-card-body {
     width: 100%;
     height: 100%;
     padding: 35px 30px 0;
     position: absolute;
     z-index: 1;
 }
-.card-body h5.gr-1,
-.card-body h5.rd-3
+.sec-6-card-body h5.gr-1,
+.sec-6-card-body h5.rd-3
  {
     color:#fbb127;
 }
-h5.card-title {
+h5.sec-6-card-title {
     color: white;
     margin: 0 0 10px;
     font-size: 14px;
     font-family: 'Jost', sans-serif;
     font-weight: bold;
 }
-h4.card-title {
+h4.sec-6-card-title {
     color: white;
     margin: 0 0 10px;
     font-size: 24px;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
-.card-text {
+.sec-6-card-text {
     color: white;
     margin: 20px 0 0;
     font-size: 16px;
     font-family: 'Jost', sans-serif;
 }
 @media (max-width:991px) {
-    .container-md {
+    .sec-6-card-cont {
         height: 80vh;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .card {
+    .sec-6-card {
 
         width: 48%;
         height: 36vh;
     }
 }
 @media (max-width:767px) {
-    .container-md {
+    .sec-6-card-cont {
         height: 114vh;
         flex-direction: column;
         justify-content: space-between;
@@ -76,15 +75,104 @@ h4.card-title {
         padding: 0% !important;
 
     }
-    .card {
+    .sec-6-card{
         width: 90%;
         height: 34vh;
         background-color: red;
     }
-    .card-img img {
+    .sec-6-card-img img {
         width: 110% !important;
         height: 100%;
         object-fit: cover;
     }
-    
+}
+/* home section 11 cards */
+.sec-11-bl-card {
+    box-shadow: none;
+}
+.sec-11-bl-card-body {
+    padding: 0 0.6rem;
+}
+.sec-11-bl-card-body .sp-details,
+.sec-11-bl-card-body .sp-author,
+.sec-11-bl-card-body .sp-date {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    text-transform: uppercase;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.sec-11-bl-card-body .sp-details,
+.sec-11-bl-card-body .sp-author {
+    position: relative;
+    padding-right: 0.5rem;
+}
+.sec-11-bl-card-body .sp-details::after,
+.sec-11-bl-card-body .sp-author::after {
+    content: "";
+    position: absolute;
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color: #CFD4DE;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+.sec-11-bl-card-body .sp-details a{
+    color: #96ae00;
+}
+.sec-11-bl-card-body .sp-author a,
+.sec-11-bl-card-body .sp-date a {
+    color: #81869c;
+}
+.sec-11-bl-card-body .sp-author:hover a,
+.sec-11-bl-card-body .sp-date:hover a {
+    transition: all .3s;
+    color: #96ae00;
+}
+.sec-11-bl-card-body .sec-11-bl-card-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    margin-bottom: 1rem;
+}
+.sec-11-bl-card-body .sec-11-bl-card-title a {
+    color: #2d2a6e;
+}
+.sec-11-bl-card-body .sec-11-bl-card-title a:hover {
+    transition: all .3s;
+    color: #96ae00;
+}
+.sec-11-bl-card-body .sec-11-bl-card-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    line-height: 1rem;
+    color: #5e6581;
+}
+.sec-11-bl-card-body .sec-11-bl-card-link {
+    color: #96ae00;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.sec-11-bl-card-body .sec-11-bl-card-link i {
+    display: none;
+}
+.sec-11-bl-card-body .sec-11-bl-card-link:hover i {
+    font-size: 9px;
+    display: inline-block;
+}
+.sec-11-bl-card-body .sp-details a::selection,
+.sec-11-bl-card-body .sp-author a::selection,
+.sec-11-bl-card-body .sp-date a::selection,
+.sec-11-bl-card-body .card-title a::selection,
+.sec-11-bl-card-body .card-text::selection,
+.sec-11-bl-card-body .card-link::selection {
+    background-color: black;
+    color: white;
 }
