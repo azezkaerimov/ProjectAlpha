@@ -252,6 +252,30 @@ body {
     font-weight: 400;
     color: #4d5574;
 }
+/* home | titles of sections */
+.home-sect-title-gen h6.sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2rem;
+    padding-top: 2.5rem;
+    color: #96ae00;
+    font-family: 'Schoolbell', cursive;
+}
+.home-sect-title-gen h2.title-section-1 {
+    color: #2d2a6e;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+.home-sect-title-gen p {
+    color: #5e6581;
+    font-size: 14px;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Jost', sans-serif;
+}
 /* section 4 */
 .sec-4-card {
     box-shadow: none;
