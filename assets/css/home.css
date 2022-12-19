@@ -277,6 +277,42 @@ body {
     font-family: 'Jost', sans-serif;
 }
 /* section 4 */
+.sec-4-carousel {
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    justify-content: center;
+}
+.sec-4-carousel-inner {
+    height: 71vh;
+    width: 75%;
+    background-color: blue;
+}
+.sec-4-carousel-item {
+    width: 10rem;
+    background-color: red;
+}
+.sec-4-carousel-control-prev {
+    left: 4%;
+}
+.sec-4-carousel-control-next {
+    right: 4%;
+}
+.sec-4-carousel-control-prev,
+.sec-4-carousel-control-next {
+    position: absolute;
+    top: 30%;
+    background-color: #97ae00;
+    opacity: 0;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    padding: 0;
+}
+.sec-4-carousel-control-prev:hover,
+.sec-4-carousel-control-next:hover {
+    opacity: 0.3;
+}
 .sec-4-card {
     box-shadow: none;
     border: 1px solid white;
