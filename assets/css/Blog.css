@@ -126,6 +126,10 @@ transition: 600ms;
 }
 
 
+
+
+
+
 .pagenum:hover{
     background-color: #64ae00;
     color: white;
@@ -135,3 +139,57 @@ transition: 600ms;
     margin-top: 35px;
     margin-bottom: 35px;
 }
+
+
+
+
+.card{
+    position: relative;
+}
+
+.card-body{
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.img-card-top:hover{
+    font-family: ;
+    color: #64ae00;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #94ae00;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
