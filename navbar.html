@@ -26,7 +26,12 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
     ></script>
 
-    <link rel="stylesheet" href="./css/navbar.css" />
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
 
     <title>ProjectAlpha</title>
   </head>
@@ -86,6 +91,86 @@
         id="header-sticky"
         class="header__main d-flex justify-content-between"
       >
+
+
+
+
+
+
+
+      <div id="mySidenav" class="sidenav">
+
+
+<div class="container sidenav_search">
+
+  <p class="sideinfo__search-title">What Are You Looking For?</p>
+  <form action="#">
+     <input  class="side-search " type="text" placeholder="Search Products...">
+     <button class="side-search-btn"><i class="fa-solid fa-search"></i></button>
+  </form>
+
+</div>
+
+<div class="side-nav">
+  <button class="side-nav-btn btn-menu" >Menu</button>
+  <button class="side-nav-btn btn-cat"  >Categories</button>
+</div>
+
+
+<div class="side-nav-pages">
+
+  <a class="side-nav-pages-home" href="#"><span class="hmn">Home</span><i class="fa-solid pages-home-icon fa-house"></i></a>
+  <hr>
+  <a class="side-nav-pages-home" href="#"><span class="hmn">Shop</span><i class="fa-solid pages-shop-icon fa-shop"></i></a>
+  <hr>
+  <a class="side-nav-pages-home" href="#"><span class="hmn">Pages</span><i class="fa-sharp pages-pgs-icon fa-solid fa-file"></i></a>
+  <hr>
+  <a class="side-nav-pages-home" href="#"><span class="hmn">Blog</span><i class="fa-brands pages-blg-icon fa-blogger-b"></i></a>
+  <hr>
+  <a class="side-nav-pages-home" href="#"><span class="hmn">About Us</span><i class="fa-solid pages-abt-icon fa-circle-info"></i></a>
+  <hr>
+  <a class="side-nav-pages-home" href="#"><span class="hmn">Contact Us</span><i class="fa-solid pages-con-icon fa-square-phone-flip"></i></a>
+  <hr class="log-hr">
+  <a class="side-nav-pages-home" href="#"><i class="fa-regular side-nav-log fa-user"></i><span class="hmn">Login / Register</span></a>
+  <hr>
+  <a class="side-nav-pages-home" href="#"><i class="fa-regular side-nav-log fa-heart"></i><span class="hmn">Wishlist</span></a>
+  <hr>
+</div>
+
+
+
+
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+      </div>
+      
+    
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      
+      <script >
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "280px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
         <div class="header_logo">
           <img
             src="https://weblearnbd.net/tphtml/orfarm/assets/img/logo/logo.png"
@@ -93,6 +178,29 @@
           />
         </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         <div class="header_menu">
           <ul class="d-flex flex-row">
             <li class="homedown">
@@ -155,7 +263,7 @@
         </div>
       </div>
     </div>
-    <hr />
+    
 
 
 

@@ -7,8 +7,242 @@
 }
 
 
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+
+
+  #mySidenav{
+    visibility: hidden;
+  }
+
+
+
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2d2a6eed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 0px 0px 0px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .sidenav .closebtn:hover{
+    color: #94ae00;
+    transition: 300ms;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 16px;}
+  }
+
+
+
+
+
+
+.sideinfo__search-title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+
+.side-search{
+    position: relative;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+
+}
+
+.side-search-btn{
+position: absolute;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+z-index: 1;
+}
+
+.side-search-btn:hover{
+   background-color: #96AE00;
+   color: #ffffff;
+   transition: 300ms;
+  
+  
+}
+
+.side-nav-pages{
+margin-left: 25px;
+margin-top: 25px;
+   
+}
+
+.pages-home-icon{
+
+    margin-left: 52px;
+}
+
+.pages-home-icon:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+.pages-shop-icon{
+
+    margin-left: 55px;
+}
+.pages-shop-icon:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+
+.pages-pgs-icon{
+
+    margin-left: 51px;
+}
+.pages-pgs-icon:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+.pages-blg-icon{
+
+    margin-left: 64px;
+}
+
+
+
+.pages-blg-icon:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+.pages-abt-icon{
+
+    margin-left: 28px;
+}
+
+
+.pages-abt-icon:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+.pages-con-icon{
+
+    margin-left: 15px;
+}
+
+
+.pages-con-icon:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+.pages-icn:hover{
+    background-color: #94ae00;
+    color: white;
+}
+
+.hmn:hover{
+    color: #96AE00;
+    transition: 300ms;
+}
+
+.side-nav-log{
+    margin-right: 10px;
+}
+
+.side-nav-log:hover{
+    color: #94ae00;
+    transition: 300ms;
+}
+
+.log-hr{
+    color: lightblue;
+    border: 2px solid;
+}
+
+
+
+.side-nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+
+
+}
+
+.side-nav-btn{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #2D2A6E;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.side-nav-btn:hover{
+background-color: #96AE00;
+color: #ffffff;
+transition: 300ms;
+}
+
+
+
+
+
+.btn-menu{
+    margin-right: 10px;
+}
+
+
+
+
+
 .hero{
     position: sticky;
+  
 }
 
 .header_main{
@@ -221,4 +455,26 @@ strong{
     .header__top{
         visibility: hidden;
     }
+}
+
+
+@media (max-width:768px)
+{
+
+
+
+    #mySidenav{
+        visibility: visible;
+    }
+.header_menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
 }
