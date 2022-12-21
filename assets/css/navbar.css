@@ -476,10 +476,23 @@ strong{
       
     }
 
+    .header__top-right{
+        display: none;
+    }
+
+    .side-search{
+        margin-left: 20px;
+    }
    
 .header_menu{
    
     display: none;
+}
+
+
+.card-body{
+
+  margin-bottom: 20px !important;  
 }
 
 
@@ -497,7 +510,20 @@ strong{
     font-size: smaller;
 }
 
+.img-card-top{
+    font-size: 18px !important;
 
+}
+.blog-title{
+    font-size: 24px !important;
+}
+
+
+
+.blog-card-bottom{
+    
+    font-size: 18px !important;
+}
 
 
 
@@ -524,8 +550,13 @@ strong{
     margin-left: 100px;
 }
 
+.side-search{
+    margin-left: 20px;
+}
 
-
+.header__top-right, .header__top-Lang, .header__top-price, .lang-sec{
+    display: none;
+}
 
 .side-open-btn{
 
@@ -541,12 +572,25 @@ strong{
 
 .card-body{
    
-bottom: 0;
-font-size: smaller;
-
+margin-bottom: -70px;
 
 }
 
+
+.img-card-top{
+    font-size: 12px;
+
+}
+.blog-title{
+    font-size: 15px;
+}
+
+
+
+.blog-card-bottom{
+    
+    font-size: 14px;
+}
 
 }
 
