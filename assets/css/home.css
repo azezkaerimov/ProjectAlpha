@@ -187,22 +187,20 @@ body {
 }
 .sec-2-carousel-inner {
     height: 10rem;
-    width: 75%;
-    background-color: blue;
+    width: 78%;
 }
 .sec-2-carousel-item {
-    width: 14rem;
-    background-color: red;
+    width: 100%;
 }
 /* section 2 */
 .sec-2-card {
     box-shadow: none;
+    margin: 0 1.5rem;
 }
 .sec-2-c-b-img {
     position: relative;
     width: 4rem;
     height: 4rem;
-    background-color: red;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -276,21 +274,45 @@ body {
     margin-bottom: 1rem;
     font-family: 'Jost', sans-serif;
 }
+/* section 7 */
+.sec-7-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+.sec-7-list-li {
+    padding: 0 1rem;
+}
+.sec-7-list-li a {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sec-7-link {
+    color: #2d2a6e;
+}
+.sec-7-link-active {
+    color: #96ac00;
+}
+.sec-7-list-li a:hover {
+    transition: all .3s;
+    color: #96ac00;
+}
 /* section 4 */
 .sec-4-carousel {
     width: 100%;
-    height: 71vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
 }
 .sec-4-carousel-inner {
-    height: 71vh;
-    width: 75%;
-    background-color: blue;
+    height: 55vh;
+    width: 78%;
 }
 .sec-4-carousel-item {
-    width: 10rem;
-    background-color: red;
+    width: 100%;
 }
 .sec-4-carousel-control-prev {
     left: 4%;
@@ -316,6 +338,7 @@ body {
 .sec-4-card {
     box-shadow: none;
     border: 1px solid white;
+    margin: 0 0.5rem;
 }
 .sec-4-card-h {
     position: relative;
@@ -500,30 +523,30 @@ body {
 }
 .sec-5-img-leaf-1 {
     transform: scale(0.4);
-    top: 245%;
+    top: 220%;
     left: 15%;
 }
 .sec-5-img-leaf-3 {
     transform: scale(0.5);
-    top: 245%;
+    top: 220%;
     left: 185%;
 }
 .sec-5-img-leaf-4 {
     transform: scale(0.5);
-    top: 245%;
+    top: 220%;
     left: 90%;
 }
 .sec-5-img-leaf-1:hover{
     transition: all .3s ease;
-    top: 244%;
+    top: 219%;
 }
 .sec-5-img-leaf-3:hover{
     transition: all .3s ease;
-    top: 244%;
+    top: 219%;
 }
 .sec-5-img-leaf-4:hover{
     transition: all .3s ease;
-    top: 244%;
+    top: 219%;
 }
 .sec-5-content {
     max-width: 450px;
@@ -620,30 +643,30 @@ body {
     }
     .sec-5-img-leaf-1 {
         transform: scale(0.4);
-        top: 245%;
+        top: 220%;
         left: 15%;
     }
     .sec-5-img-leaf-3 {
         transform: scale(0.5);
-        top: 270%;
+        top: 240%;
         left: 88%;
     }
     .sec-5-img-leaf-4 {
         transform: scale(0.5);
-        top: 245%;
+        top: 220%;
         left: 70%;
     }
     .sec-5-img-leaf-1:hover{
         transition: all .3s ease;
-        top: 244%;
+        top: 219%;
     }
     .sec-5-img-leaf-3:hover{
         transition: all .3s ease;
-        top: 269%;
+        top: 239%;
     }
     .sec-5-img-leaf-4:hover{
         transition: all .3s ease;
-        top: 244%;
+        top: 219%;
     }
 }
 @media (max-width:991px) {
@@ -819,9 +842,220 @@ h4.sec-6-card-title {
         object-fit: cover;
     }
 }
+/* section 9 */
+.sec-9-container {
+    max-width: 1400px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://weblearnbd.net/tphtml/orfarm/assets/img/banner/coundpwn-bg-1.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+.sec-9-content {
+    max-width: 600px;
+    width: 100%;
+    height: 80vh;
+    max-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 2;
+}
+.sec-9-sub-title-g {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1rem;
+    color: white;
+    font-family: 'Schoolbell', cursive;
+}
+.sec-9-title-g {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+}
+.sec-9-text-g {
+    color: white;
+    font-size: 14px;
+    line-height: 1rem;
+    margin-bottom: 15px;
+    font-family: 'Jost', sans-serif;
+}
+.sec-9-img-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+.sec-9-img-shape-1 {
+    position: absolute;
+    top: 18%;
+    left: 2%;
+}
+.sec-9-img-shape-1:hover {
+    top: 17%;
+}
+.sec-9-img-shape-2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+.sec-9-img-shape-2:hover {
+    top: 64%;
+}
+.sec-9-img-shape-3 {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+}
+.sec-9-img-shape-3:hover {
+    top: 11%;
+}
+.sec-9-img-shape-4 {
+    position: absolute;
+    top: 35%;
+    left: 75%;
+}
+.sec-9-img-shape-4:hover {
+    top: 34%;
+}
+.sec-9-hurry-up-countdown {
+    width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+}
+.sec-9-hurry-up-countdown h4 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 43px;
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+.sec-9-countdown-count {
+    color: white;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+.sec-9-ctdown-count-days {
+    width: 120px;
+    margin-right: -50px;
+}
+.sec-9-ctdown-count-hours {
+    width: 130px;
+    margin-right: -50px;
+}
+.sec-9-ctdown-count {
+    width: 150px;
+    padding-right: 40px;
+    margin-right: -50px;
+}
+.sec-9-ctdown-z {
+    font-size: 36px;
+}
+.sec-9-ctdown-time {
+    font-size: 12px;
+    color: #b4dea4;
+}
+.sec-9-div-btns {
+    margin-top: 25px;
+    padding-left: 0;
+}
+.sec-9-btn-premium-drink-shop,
+.sec-9-btn-premium-drink-menu {
+    font-size: 13px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    padding: 13px 50px;
+    cursor: pointer;
+} 
+.sec-9-btn-premium-drink-shop {
+    background: #fff;
+    color: #96ae00 ;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+.sec-9-btn-premium-drink-menu {
+    border: 2px solid #fff;
+    color: #fff;
+}
+.sec-9-btn-premium-drink-shop:hover {
+    transition: all .2s;
+    background: transparent;
+    border: 2px solid #fff;
+}
+.sec-9-btn-premium-drink-menu:hover {
+    transition: all .2s;
+    color: #96ae00 ;
+    border: 2px solid #fff;
+    background: #fff;
+}
+@media (max-width:991px) {
+    .sec-9-img-shape {
+        display: none;
+    }
+    .sec-9-content {
+        left: 10%;
+    }
+}
+@media (max-width:767px) {
+    .sec-9-container {
+        height: 95vh;
+        background-size: 235%;
+        background-position: 100%;
+    }
+    .sec-9-content {
+        left: 5%;
+    }
+    .sec-9-title-g {
+        font-size: 28px;
+    }
+    .sec-9-ctdown-count-days {
+        width: 100px;
+    }
+    .sec-9-ctdown-count-hours {
+        width: 110px;
+    }
+    .sec-9-ctdown-count {
+        padding-right: 30px;
+    }
+    .sec-9-ctdown-z {
+        font-size: 20px;
+    }
+    .sec-9-btn-premium-drink-shop,
+    .sec-9-btn-premium-drink-menu {
+        font-size: 12px;
+        padding: 10px 40px;
+    } 
+}
 /* home section 11 cards */
+.sec-11-carousel {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+}
+.sec-11-carousel-inner {
+    height: 55vh;
+    width: 78%;
+}
 .sec-11-bl-card {
     box-shadow: none;
+    margin: 0 1.5rem;
 }
 .sec-11-bl-card-body {
     padding: 0 0.6rem;
