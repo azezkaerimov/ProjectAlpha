@@ -621,7 +621,7 @@ strong {
 }
 /* section 1 */
 .sec-1-container {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     width: 100%;
     height: 100vh;
     background-image: url('https://weblearnbd.net/tphtml/orfarm/assets/img/slider/shape-bg.jpg');
@@ -800,7 +800,7 @@ strong {
 }
 .sec-2-carousel-inner {
     height: 10rem;
-    width: 78%;
+    width: 90%;
 }
 .sec-2-carousel-item {
     width: 100%;
@@ -922,7 +922,7 @@ strong {
 }
 .sec-4-carousel-inner {
     height: 55vh;
-    width: 78%;
+    width: 90%;
 }
 .sec-4-carousel-item {
     width: 100%;
@@ -951,7 +951,7 @@ strong {
 .sec-4-card {
     box-shadow: none;
     border: 1px solid white;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
 }
 .sec-4-card-h {
     position: relative;
@@ -1099,7 +1099,7 @@ strong {
 }
 /* section 5 */
 .sec-5-container {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     width: 100%;
     height: 80vh;
     display: flex;
@@ -1457,7 +1457,7 @@ h4.sec-6-card-title {
 }
 /* section 9 */
 .sec-9-container {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     width: 100%;
     height: 100vh;
     background-image: url('https://weblearnbd.net/tphtml/orfarm/assets/img/banner/coundpwn-bg-1.png');
@@ -1664,7 +1664,7 @@ h4.sec-6-card-title {
 }
 .sec-11-carousel-inner {
     height: 60vh;
-    width: 78%;
+    width: 90%;
 }
 .sec-11-bl-card {
     box-shadow: none;
