@@ -7,6 +7,15 @@
 }
 
 
+
+
+.hero{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
   
   .sidenav {
     height: 100%;
@@ -447,26 +456,46 @@ strong{
 
 
 
-@media (max-width:1200px){
-    .header__top{
-        visibility: hidden;
-    }
-}
+
 
 
 @media (max-width:768px)
 {
 
+    .hero{
+    
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: #fff;
+    }
+
     .side-open-btn{
         display: block;
+      
     }
 
    
 .header_menu{
+   
     display: none;
 }
 
 
+.shazam{ 
+    display: none;
+
+}
+.side-open-btn{
+
+
+    margin-left: 0px;
+}
+
+.cover{
+    font-size: smaller;
+}
+
 
 
 
@@ -474,6 +503,69 @@ strong{
 
 
 }
+
+
+
+
+
+
+@media (max-width:1200px){
+
+.header_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.side-open-btn{
+    display: block;
+    margin-left: 100px;
+}
+
+
+
+
+.side-open-btn{
+
+
+    margin-left: 0px;
+}
+
+.blog-title{
+    font-size: smaller;
+
+}
+
+
+.card-body{
+   
+bottom: 0;
+font-size: smaller;
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
