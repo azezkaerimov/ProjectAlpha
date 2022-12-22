@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="div-head">
+      <a href="#home-page">Home</a>
+      <span> / Shop</span>
+    </div>
+    <div class="container">
+      <div class="product-categories">
+        <div class="items">
+          <p><span>PRODUCT CATEGORIES</span></p>
+          <ul class="firstul">
+            <li>
+              <input type="checkbox" id="biscuit" />
+              <label for="biscuit"> Biscuits & Snacks (08)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="fresh" />
+              <label for="fresh"> Fresh Fruits (12)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="exotic" />
+              <label for="exotic"> Exotic Fruits (09)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="breads" />
+              <label for="breads">Breads & Bakery (05)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="breakfast" />
+              <label for="breakfast">Breakfast & Dairy (09)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="honey" />
+              <label for="honey">Honey (05)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="milk" />
+              <label for="milk">Milk & Flavoured (04)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="meats" />
+              <label for="meats">Meats & Seafood (08)</label>
+            </li>
+          </ul>
+          <div class="dotted-line"></div>
+          <p><span>FILTER BY PRICE</span></p>
+          <div class="slider-container">
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              oninput="this.nextElementSibling.value = this.value"
+            /><output> <span>$0-</span>500$ </output>
+          </div>
+          <button class="filter-btn">FILTER</button>
+          <div class="dotted-line"></div>
+          <p><span>FILTER BY COLOR</span></p>
+          <ul class="secondul">
+            <li>
+              <input type="radio" id="black" /> <label for="black">Black</label>
+            </li>
+            <li>
+              <input type="radio" id="blue" /> <label for="blue">Blue</label>
+            </li>
+            <li>
+              <input type="radio" id="brown" /> <label for="brown">Brown</label>
+            </li>
+            <li>
+              <input type="radio" id="gray" /> <label for="gray">Gray</label>
+            </li>
+            <li>
+              <input type="radio" id="green" /> <label for="green">Green</label>
+            </li>
+            <li>
+              <input type="radio" id="yellow" />
+              <label for="yellow">Yellow</label>
+            </li>
+            <li>
+              <input type="radio" id="red" /> <label for="red">Red</label>
+            </li>
+          </ul>
+          <div class="dotted-line"></div>
+          <p><span>FILTER BY BRAND</span></p>
+          <ul class="thirdul">
+            <li>
+              <input type="checkbox" id="hearts" />
+              <label for="hearts">Chrome Hearts (15)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="dominique" />
+              <label for="dominique">Dominique Aurientis (15)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="galliano" />
+              <label for="galliano">Galliano (15)</label>
+            </li>
+
+            <li>
+              <input type="checkbox" id="georgine" />
+              <label for="georgine">Georgine (15)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="matthew" />
+              <label for="matthew">Matthew Christopher (15)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="paul" />
+              <label for="paul">Paul Gaultier (15)</label>
+            </li>
+          </ul>
+          <div class="dotted-line"></div>
+          <p><span>FILTER BY RATING</span></p>
+          <ul class="forthul">
+            <li>
+              <input type="checkbox" id="45star" />
+              <label for="45star"
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>(45)</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="10star" />
+              <label for="10star"
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>(10)</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="05star" />
+              <label for="05star"
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>(05)</label
+              >
+            </li>
+
+            <li>
+              <input type="checkbox" id="02star" />
+              <label for="02star"
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>(02)</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="03star" />
+              <label for="03star"
+                ><i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>(02)</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image1">
+          <img
+            src="https://weblearnbd.net/tphtml/orfarm/assets/img/shape/sidebar-product-1.png"
+            alt="Photo1"
+          />
+        </div>
+      </div>
+      <div class="div-col-2">
+        <div class="topbackgroundimg">
+          <div class="p-div">
+            <p class="salad">THE SALAD</p>
+            <p class="fresh">Fresh & Natural</p>
+            <p class="healthy">Healthy Food Special Offer</p>
+            <p class="miss">Do not miss the current offers of us!</p>
+          </div>
+        </div>
+        <div class="sorting-bar">
+          <span>Showing 1 - 18 of 40 Products</span>
+          <div class="sorting-icon">
+          <i class="fa-solid fa-grip"></i>
+          <i class="fa-solid fa-grip-vertical"></i>
+          <i class="fa-solid fa-list-ul"></i>
+        </div>
+          <select name="Sort" id="s1">
+            <option class="d-sorting" value="selected">Default sorting</option>
+            <option>Short popularity</option>
+            <option>Show 08</option>
+            <option>Show 20</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
