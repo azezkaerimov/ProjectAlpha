@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 
 
@@ -65,13 +66,10 @@ color: #64ae00;
 transition: 600ms;
 }
 
-
-
-
-
-
-
-
+*::selection {
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -191,5 +189,20 @@ body {
   #myBtn:hover {
     background-color: #555;
   }
+
+
+@media (max-width:768px){
+
+
+    .cover{
+        background-size: 500%;
+    }
+
+}
+.hero {
+    margin: 0 !important;
+}
+
+
 
 
