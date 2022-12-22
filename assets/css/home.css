@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #f2f2f6;
+    background-color: #ffffff;
 }
 /* navbar */
 * {
@@ -487,44 +487,71 @@ strong {
 
 
 
-@media (max-width:768px) {
 
-    .hero {
+@media (max-width:768px)
+{
 
+    .hero{
+    
         position: -webkit-sticky;
         position: sticky;
         top: 0;
         background-color: #fff;
     }
 
-    .side-open-btn {
+    .side-open-btn{
         display: block;
-
+      
     }
 
-
-    .header_menu {
-
+    .header__top-right{
         display: none;
     }
 
-
-    .shazam {
-        display: none;
-
+    .side-search{
+        margin-left: 20px;
     }
-
-    .side-open-btn {
-
-
-        margin-left: 0px;
-    }
-
-    .cover {
-        font-size: smaller;
-    }
+   
+.header_menu{
+   
+    display: none;
+}
 
 
+.card-body{
+
+  margin-bottom: 20px !important;  
+}
+
+
+.shazam{ 
+    display: none;
+
+}
+.side-open-btn{
+
+
+    margin-left: 0px;
+}
+
+.cover{
+    font-size: smaller;
+}
+
+.img-card-top{
+    font-size: 18px !important;
+
+}
+.blog-title{
+    font-size: 24px !important;
+}
+
+
+
+.blog-card-bottom{
+    
+    font-size: 18px !important;
+}
 
 
 
@@ -537,48 +564,63 @@ strong {
 
 
 
-@media (max-width:1200px) {
+@media (max-width:1200px){
 
-    .header_menu {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: none;
-    }
+.header_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
 
-    .side-open-btn {
-        display: block;
-        margin-left: 100px;
-    }
+.side-open-btn{
+    display: block;
+    margin-left: 100px;
+}
 
+.side-search{
+    margin-left: 20px;
+}
 
+.header__top-right, .header__top-Lang, .header__top-price, .lang-sec{
+    display: none;
+}
 
-
-    .side-open-btn {
-
-
-        margin-left: 0px;
-    }
-
-    .blog-title {
-        font-size: smaller;
-
-    }
+.side-open-btn{
 
 
-    .card-body {
+    margin-left: 0px;
+}
 
-        bottom: 0;
-        font-size: smaller;
-
-
-    }
-
+.blog-title{
+    font-size: smaller;
 
 }
 
 
+.card-body{
+   
+margin-bottom: -70px;
 
+}
+
+
+.img-card-top{
+    font-size: 12px;
+
+}
+.blog-title{
+    font-size: 15px;
+}
+
+
+
+.blog-card-bottom{
+    
+    font-size: 14px;
+}
+
+}
 
 
 

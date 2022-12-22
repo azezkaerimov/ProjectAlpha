@@ -11,7 +11,11 @@ body {
     background-color: #dee1e6;
 }
 .div-head {
+<<<<<<< HEAD
     padding: 2% 4% 0;
+=======
+    margin-left: 50px;
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 14px;
@@ -30,7 +34,10 @@ body {
 }
 ul{
     list-style-type: none;
+<<<<<<< HEAD
     padding-left: 0;
+=======
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 }
 .firstul,
 .secondul,
@@ -53,6 +60,7 @@ ul{
 .forthul li label {
     padding-left: 0.5rem;
 }
+<<<<<<< HEAD
 .firstul li input,
 input[type=range],
 .thirdul li input,
@@ -80,6 +88,8 @@ input[type=range],
 .secondul li .red {
     accent-color: red;
 }
+=======
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 .forthul label i {
     color: #ffb800;
 }
@@ -112,6 +122,7 @@ output{
     border: 1px solid transparent;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .shop-container{
     width: 100%;
     display: flex;
@@ -119,13 +130,26 @@ output{
 }
 .product-categories{
     width: 22%;
+=======
+.container{
+    width: 100%;
+    display: flex;
+}
+.product-categories{
+    width: 20%;
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
     border-radius: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     flex-direction: column;
     padding-top: 2%;
+=======
+    margin-left: 50px;
+    flex-direction: column;
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 }
 .product-categories .image1{
     margin-top: 1rem;
@@ -149,7 +173,11 @@ output{
     .div-head {
         margin-left: 10%;
     }
+<<<<<<< HEAD
     .shop-container {
+=======
+    .container {
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -185,6 +213,7 @@ output{
 
 /* ---------------- */
 
+<<<<<<< HEAD
 .div-col-2 {
     width: 78%;
     padding-left: 2%;
@@ -197,6 +226,17 @@ output{
     background-size: cover;
     border-radius: 10px;
     align-items: center;
+=======
+
+.topbackgroundimg{
+    width: 1000px;
+    height: 200px;
+    background-image: url('https://weblearnbd.net/tphtml/orfarm/assets/img/banner/shop-bg-1.jpg');
+    background-size: cover;
+   border-radius: 10px;
+    align-items: center;
+    margin-left: 50px;
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 }
 
 
@@ -241,9 +281,16 @@ output{
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     width: 100%;
     height: 50px;
     background-color: white;
+=======
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    margin-left: 50px;
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
     margin-top: 25px;
     border-radius: 10px;
     color: #4d5574;
@@ -292,10 +339,16 @@ output{
 .shop-head-div{
 display: flex;
 flex-wrap: wrap;
+<<<<<<< HEAD
 margin: 5% 0;
 display: flex;
 justify-content: space-between;
 align-items: flex-start;
+=======
+
+margin-left: 50px;
+margin-top: 25px;
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 
 
 }
@@ -307,6 +360,7 @@ align-items: flex-start;
 }
 
 .shop-main-div{
+<<<<<<< HEAD
     width: 30%;
     height: 61vh;
     margin-bottom: 8%;
@@ -315,17 +369,33 @@ align-items: flex-start;
 a {
     text-decoration: none;
 }
+=======
+    
+    margin-right: 28px;
+    width: 315px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 165px;
+
+    
+}
+
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 
 .shop-card-div{
     border-radius: 10px;
     background-color: #fff;
+<<<<<<< HEAD
     width: 100% !important;
+=======
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 }
 
 
 .shop-info-p{
 
     margin: 10px 0;
+<<<<<<< HEAD
 }
 
 /* ----------------- */
@@ -629,4 +699,6 @@ a {
 }
 .header_menu ul .shopdown-shop-page .shopdown-content .shop-list-page {
     color: #96ae00;
+=======
+>>>>>>> e0d5f961c9b96b5f2801d0c706fdbace99eb186d
 }
