@@ -164,7 +164,7 @@ output{
     background-size: cover;
    border-radius: 10px;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 
@@ -212,11 +212,14 @@ output{
     width: 1000px;
     height: 50px;
     background-color: white;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 25px;
     border-radius: 10px;
     color: #4d5574;
     
+}
+.sorting-bar span{
+    margin-left: 15px;
 }
 
 .sort-pages{
@@ -230,6 +233,7 @@ output{
     color: #4d557495;
     cursor: pointer;
     margin-left: 10px;
+
 }
 
 
@@ -254,3 +258,41 @@ output{
 
 
 
+.shop-head-div{
+display: flex;
+flex-wrap: wrap;
+
+margin-left: 50px;
+margin-top: 25px;
+
+
+}
+
+.shop-info-main, .shop-img-div{
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.shop-main-div{
+    
+    margin-right: 28px;
+    width: 315px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 165px;
+
+    
+}
+
+
+.shop-card-div{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+.shop-info-p{
+
+    margin: 10px 0;
+}
