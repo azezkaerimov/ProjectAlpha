@@ -880,6 +880,9 @@ margin-bottom: -70px;
     font-size: 2.5rem;
     color: transparent;
 }
+.sec-2-carousel-inner .carousel-item .card-wrapper {
+    height: 10rem !important;
+}
 .sec-2-card:hover .sec-2-c-b-img-h {
     transition: all .3s;
     transform: scale(1);
@@ -966,6 +969,9 @@ margin-bottom: -70px;
 .sec-4-carousel-inner {
     height: 57vh;
     width: 90%;
+}
+.sec-4-carousel-inner .carousel-item .card-wrapper {
+    height: 57rem !important;
 }
 .sec-4-carousel-item {
     width: 100%;
@@ -1097,11 +1103,13 @@ margin-bottom: -70px;
     position: absolute;
     left: 0;
     top: 0;
-    transform: scale(0);
-    transition: transform .6s ease-in-out;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: transform .6s;
 }
 .sec-4-card:hover .sec-4-img-2 {
     transform: scale(1);
+    opacity: 1;
 }
 .sec-4-card:hover .sec-4-div-pr-shop-icons a i {
     display: block;
@@ -1435,6 +1443,10 @@ margin-bottom: -70px;
     max-width: 130%;
     height: 100%;
 }
+.sec-6-card:hover .sec-6-card-img img {
+    transition: all 1s;
+    transform: scale(1.1);
+}
 .sec-6-card-body {
     width: 100%;
     height: 100%;
@@ -1705,6 +1717,9 @@ h4.sec-6-card-title {
     height: 60vh;
     width: 90%;
 }
+.sec-11-carousel-inner .carousel-item .card-wrapper {
+    height: 60vh !important;
+}
 .sec-11-bl-card {
     box-shadow: none;
     margin: 0 1.5rem;
@@ -1818,3 +1833,8 @@ h4.sec-6-card-title {
     75%  {left:77%; top:36%;}
     100% {left:75%; top:35%;}
   }
+  .header_menu ul .homedown a {
+    color: #96ac00;
+    font-style: normal;
+  }
+  
